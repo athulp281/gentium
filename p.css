@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: black;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+ nav ul li{
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    
+    
+    
+}
+nav ul li a{
+    color: white;
+}
+nav h1{
+    color: white;
+}
+.b h2{
+    color: white;
+    font-size: 70px;
+
+}
+.b button{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 150px;
+    border: solid 3px rgb(247, 108, 108);
+    margin: 20px;
+}
+.b{
+    padding-top: 150px;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color:#1b1b1b;
+    margin: 10px;
+}
+.box-container{
+    display: inline-flex;
+    padding-top: 70px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box i{
+    color: hotpink;
+    font-size: 50px;
+    padding-top: 40px;
+    padding-left: 40px;
+
+}
+.box h2{
+    color: white;
+    padding-top: 30px;
+    padding-left: 30px;
+
+    
+
+}
+.c p{
+    padding-left: 20px;
+    padding: 20px;
+    color: white;
+}
+.box-container :hover{
+    background-color: rgb(196, 103, 103) ;
+
+}
+.box:hover p i{
+    color: white;
+}
+.border{
+    height: 3px;
+    background-color: red;
+}
+.heading-border{
+    margin-top: 100px;
+    width: 100px;
+}
+
+.card-border{
+    width: 60px;
+    margin-left: 33px;
+
+}
+.nav-border{
+    width: 0px;
+    background-color: red;
+    margin-top: 5px;
+}
+@media only screen and (max-width:426px){
+    body{
+        width: 100%;
+        margin: 0px;
+    }
+    nav{
+        display: inline-block;
+        font-weight: bolder;
+        margin-left: 0px;
+    }
+    nav h1{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    nav ul{
+        display: inline-block;
+        color: white;
+        font-size: 25px;
+        padding: 5px;
+    }
+    .box-container{
+        padding-left: 0px;
+    }
+    .b h2{
+        font-size: 50px;
+        
+
+}
+
